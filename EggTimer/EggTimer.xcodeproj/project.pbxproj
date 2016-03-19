@@ -170,6 +170,7 @@
 				2585B0321C9D1E5C009C08A6 /* Sources */,
 				2585B0331C9D1E5C009C08A6 /* Frameworks */,
 				2585B0341C9D1E5C009C08A6 /* Resources */,
+				2585B06F1C9D2BB3009C08A6 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -288,6 +289,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2585B06F1C9D2BB3009C08A6 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2585B0321C9D1E5C009C08A6 /* Sources */ = {
@@ -525,6 +542,7 @@
 				2585B0601C9D1E5C009C08A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2585B0611C9D1E5C009C08A6 /* Build configuration list for PBXNativeTarget "EggTimerTests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +551,7 @@
 				2585B0631C9D1E5C009C08A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2585B0641C9D1E5C009C08A6 /* Build configuration list for PBXNativeTarget "EggTimerUITests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +560,7 @@
 				2585B0661C9D1E5C009C08A6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
