@@ -17,6 +17,8 @@
 		2585B06E1C9D2504009C08A6 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2585B06D1C9D2504009C08A6 /* Logger.swift */; };
 		2585B0741C9D4540009C08A6 /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2585B0731C9D4540009C08A6 /* NSObject+ClassName.swift */; };
 		2585B0781C9D4A8C009C08A6 /* UIView+XibInitializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2585B0771C9D4A8C009C08A6 /* UIView+XibInitializable.swift */; };
+		2585B07A1C9D5091009C08A6 /* EggTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2585B0791C9D5091009C08A6 /* EggTimerView.swift */; };
+		2585B07C1C9D50A1009C08A6 /* EggTimerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2585B07B1C9D50A1009C08A6 /* EggTimerView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		2585B06D1C9D2504009C08A6 /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		2585B0731C9D4540009C08A6 /* NSObject+ClassName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+ClassName.swift"; sourceTree = "<group>"; };
 		2585B0771C9D4A8C009C08A6 /* UIView+XibInitializable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+XibInitializable.swift"; sourceTree = "<group>"; };
+		2585B0791C9D5091009C08A6 /* EggTimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EggTimerView.swift; sourceTree = "<group>"; };
+		2585B07B1C9D50A1009C08A6 /* EggTimerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EggTimerView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +165,8 @@
 		2585B06B1C9D248A009C08A6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2585B0791C9D5091009C08A6 /* EggTimerView.swift */,
+				2585B07B1C9D50A1009C08A6 /* EggTimerView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -282,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2585B07C1C9D50A1009C08A6 /* EggTimerView.xib in Resources */,
 				2585B0441C9D1E5C009C08A6 /* LaunchScreen.storyboard in Resources */,
 				2585B0411C9D1E5C009C08A6 /* Assets.xcassets in Resources */,
 				2585B03F1C9D1E5C009C08A6 /* Main.storyboard in Resources */,
@@ -326,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2585B06C1C9D248A009C08A6 /* EggTimerViewController.swift in Sources */,
+				2585B07A1C9D5091009C08A6 /* EggTimerView.swift in Sources */,
 				2585B0741C9D4540009C08A6 /* NSObject+ClassName.swift in Sources */,
 				2585B0781C9D4A8C009C08A6 /* UIView+XibInitializable.swift in Sources */,
 				2585B06E1C9D2504009C08A6 /* Logger.swift in Sources */,
