@@ -1,3 +1,11 @@
+//
+//  Logger.swift
+//  EggTimer
+//
+//  Created by domon on 2016/03/19.
+//  Copyright © 2016年 Domon. All rights reserved.
+//
+
 ///ログ出力クラス
 class Logger {
     

@@ -8,6 +8,7 @@
 
 import UIKit
 
+/// ゆでたまごタイマーの画面
 class EggTimerViewController: UIViewController {
 
     override func viewDidLoad() {
