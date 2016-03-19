@@ -1,0 +1,10 @@
+disabled_rules:
+- variable_name
+- trailing_whitespace
+- cyclomatic_complexity
+
+opt_in_rules:
+- missing_docs
+
+included:
+- EggTimer
